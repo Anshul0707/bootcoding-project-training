@@ -13,8 +13,7 @@ public class CustomerDAO
 {
     private Connection conn;
 
-    public CustomerDAO()
-    {
+    public CustomerDAO(){
         DAOService daoService = new DAOService();
         conn = daoService.getDatabaseConnections();
     }
